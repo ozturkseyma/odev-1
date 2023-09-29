@@ -1,0 +1,43 @@
+.linkler {
+    background-color: $nav-bg-color;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+    .foto-wrapper {
+        padding: 8px;
+        margin-bottom: 8px;
+
+        .foto {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            margin: 20px 0;
+            border: 0.5rem solid rgba(255, 255, 255, 0.2);
+            margin: 35px 48px 0;
+        }
+    }
+
+
+
+    .link {
+        color: $navbar-color;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        transition: color 0.3s ease-in-out;
+        height: 40px;
+
+        &:hover {
+            color: $navbar-hover-color;
+
+        }
+    }
+}

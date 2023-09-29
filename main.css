@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.linkler {
+  background-color: #BD5D38;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.linkler .foto-wrapper {
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.linkler .foto-wrapper .foto {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  margin: 35px 48px 0;
+}
+.linkler .link {
+  color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  transition: color 0.3s ease-in-out;
+  height: 40px;
+}
+.linkler .link:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.content {
+  background-color: white;
+}
+.content .content-section {
+  min-height: 100vh;
+  padding: 80px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content .content-section h1 {
+  font-size: 96px;
+  font-weight: 700;
+  font-family: "Saira Extra Condensed";
+}
+.content .content-section h1 .head-first {
+  color: #343A40;
+}
+.content .content-section h1 .head-second {
+  color: #BD5D38;
+}
+.content .content-section .subheading {
+  font-size: 24px;
+  font-family: "Saira Extra Condensed";
+  color: #6c757d;
+  margin: 0 0 48px;
+}
+.content .content-section .subheading a {
+  color: #BD5D38;
+}
+.content .content-section .preface {
+  font-size: 18.4px;
+  color: #6c757d;
+  margin: 0 0 48px;
+}
+.content .content-section .social-icons {
+  display: flex;
+}
+.content .content-section .social-icons .social-icon {
+  text-decoration: none;
+  padding: 22px;
+  background-color: #343a40;
+  margin-right: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min-content;
+  color: white;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.text-color {
+  color: #343A40;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+/*# sourceMappingURL=main.css.map */

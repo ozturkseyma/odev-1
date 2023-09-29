@@ -1,0 +1,18 @@
+@import './_variables.scss';
+@import './reset.scss';
+@import './navbar.scss';
+@import './content.scss';
+
+html {
+    font-family: $font-family;
+    font-weight: $font-weight;
+}
+
+.text-color {
+    color: $text-color;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}

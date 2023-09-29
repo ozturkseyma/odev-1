@@ -1,0 +1,64 @@
+.content {
+    background-color: $content-bg-color;
+
+    .content-section {
+        min-height: 100vh;
+        padding: 80px 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            font-size: 96px;
+            font-weight: 700;
+            font-family: 'Saira Extra Condensed';
+
+
+            .head-first {
+                color: $text-color;
+            }
+
+            .head-second {
+                color: $prime;
+            }
+
+        }
+
+        .subheading {
+            font-size: 24px;
+            font-family: 'Saira Extra Condensed';
+            color: $text-color-light;
+            margin: 0 0 48px;
+
+            a {
+                color: $prime;
+            }
+
+        }
+
+        .preface {
+            font-size: 18.4px;
+            color: $text-color-light;
+            margin: 0 0 48px;
+        }
+
+        .social-icons {
+            display: flex;
+
+            .social-icon {
+                text-decoration: none;
+                padding: 22px;
+                background-color: $text-color-dark;
+                margin-right: 24px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: min-content;
+                color: $content-bg-color;
+            }
+        }
+    }
+
+
+}
