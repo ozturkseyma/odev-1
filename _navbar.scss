@@ -7,6 +7,32 @@
     justify-content: center;
     height: 100vh;
 
+    @media screen and (max-width: 768px) {
+        position: fixed;
+        width: 100%;
+        height: 56px;
+        overflow-x: auto;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .foto-wrapper {
+            display: none;
+        }
+
+        .link {
+            height: auto !important;
+        }
+    }
+
 
     .foto-wrapper {
         padding: 8px;
@@ -21,8 +47,6 @@
             margin: 35px 48px 0;
         }
     }
-
-
 
     .link {
         color: $navbar-color;
